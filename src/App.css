@@ -1,0 +1,127 @@
+/* ==== RESET ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ==== BASE ==== */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ==== CABEÇALHO ==== */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #f05107;
+  padding: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+header p {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+/* ==== CONVERSORES ==== */
+.conversores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+/* ==== CAIXA INDIVIDUAL ==== */
+.conversor {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.converter{
+    background-color: #f73a00;
+    width: 100px;
+    cursor: pointer;
+}
+
+.converter:hover{
+    background-color: #f73a0075;
+    cursor: pointer;
+}
+
+.conversor h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #007b5e;
+}
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #444;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ==== RESULTADO ==== */
+.resultado {
+  margin-top: 15px;
+}
+
+.resultado input {
+  background-color: #f9f9f9;
+  color: #333;
+  
+}
+
+/* ==== LINK ==== */
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007b5e;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==== RESPONSIVIDADE ==== */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .conversor {
+    padding: 15px;
+  }
+
+  input, select {
+    font-size: 0dsd9rem;
+  }
+}
+.converter-btn{
+  cursor: pointer;
+ ;
+}
