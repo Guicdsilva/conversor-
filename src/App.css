@@ -8,8 +8,8 @@
 
 /* ==== BASE ==== */
 body {
-  background-color: #141313;
-  color: #333;
+  background-color: #aca6a6;
+  color: #f0f0f0;
 }
 
 /* ==== CABEÇALHO ==== */
@@ -40,7 +40,7 @@ header p {
 
 /* ==== CAIXA INDIVIDUAL ==== */
 .conversor {
-  background: #695858;
+  background: #386e8d;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -67,7 +67,7 @@ label {
   display: block;
   font-size: 0.9rem;
   margin-top: 10px;
-  color: #444;
+  color: #bdbcbc;
 }
 
 input,
@@ -75,7 +75,7 @@ select {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #c5c5c5;
   border-radius: 5px;
 }
 
@@ -89,19 +89,24 @@ select {
   color: #333;
   
 }
-
-/* ==== LINK ==== */
-a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #007b5e;
-  text-decoration: none;
-  font-size: 0.9rem;
+.unidade {
+ 
+  width: 200px;
+  margin:auto;
+  text-align: center;
+}
+option{
+  text-align: center;
+  
 }
 
-a:hover {
-  text-decoration: underline;
+.valores{
+
+  width: 300px;
+  text-align: center;
 }
+
+
 
 /* ==== RESPONSIVIDADE ==== */
 @media (max-width: 600px) {
@@ -118,10 +123,14 @@ a:hover {
   }
 
   input, select {
-    font-size: 0dsd9rem;
+    font-size: 0.9rem;
   }
 }
 .converter-btn{
   cursor: pointer;
  ;
+}
+select{
+  width: 200px;
+  margin: a;
 }
